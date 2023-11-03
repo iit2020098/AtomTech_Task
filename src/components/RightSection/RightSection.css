@@ -1,0 +1,18 @@
+.right-section {
+    
+  position: fixed; /* Set the right-section as a fixed position element */
+  top: 0; /* Position it at the top of the viewport */
+  right: 0;
+    background-color: #fafafa; /* Light grey background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Set the height of the right section */
+    max-width: 70%; /* Maximum width for the right section */
+  }
+  
+  .right-section img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  

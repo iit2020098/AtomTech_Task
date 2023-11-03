@@ -1,0 +1,84 @@
+form{
+    background-color: white;
+    padding: 0px ;
+    border-radius: 10px;
+    width: 100%;
+  }
+  h1{
+    color: rgb(77, 1, 77);
+    text-align: center;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .buttons > button {
+    width: 100%;
+    max-width: 200px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: #fafafa;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 15px 20px; /* Increase the margin values for more spacing */
+    transition: background-color 0.3s;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .buttons > button img {
+    max-width: 30px;
+    margin-right: 10px;
+  }
+  
+  .buttons > button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .line-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .line {
+    flex: 1;
+    border: none;
+    border-top: 1px solid #000; /* Set the desired line color and style */
+    margin: 0 10px; /* Adjust the margin to control spacing between the lines */
+  }
+  
+  .division{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .fp{
+    margin: auto 0;
+    margin-left: 40px;
+    padding: auto;
+    
+  }
+  button{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: #605BFF;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }

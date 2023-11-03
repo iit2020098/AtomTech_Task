@@ -1,0 +1,100 @@
+/* Reset some defaults to avoid unwanted spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply a common font size to the entire form */
+form {
+  background-color: white;
+  padding: 0px; /* Reduced padding */
+  border-radius: 10px;
+  font-size: 14px; /* Reduced font size */
+}
+.diva{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+p{
+  text-align: left;
+  word-wrap: break-word;
+}
+/* Style the h1 with a smaller font size */
+h1 {
+  color: rgb(77, 1, 77);
+  text-align: center;
+  font-size: 24px; /* Adjust the font size */
+  size:24px;
+}
+
+/* Reduce the font size and padding for buttons */
+button {
+  width: 100%;
+  height: 40px; /* Reduced button height */
+  padding: 5px 10px; /* Reduced padding */
+  border: none;
+  background-color: #605BFF;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px; /* Adjust the font size */
+  cursor: pointer;
+  margin-top: 10px; /* Reduced margin-top */
+  margin-bottom: 20px; /* Reduced margin-bottom */
+}
+
+/* Adjust the font size for the h6 element */
+h6 {
+  font-size: 12px; /* Adjust the font size */
+}
+
+/* Reduce the size of buttons and adjust spacing */
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons > button {
+  width: 100%;
+  max-width: 160px; /* Reduced max-width */
+  height: 40px; /* Reduced button height */
+  padding: 5px 10px; /* Reduced padding */
+  border: none;
+  background-color: #fafafa;
+  color: black;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px; /* Adjust the font size */
+  cursor: pointer;
+  margin: 10px 10px; /* Reduced margin values */
+  transition: background-color 0.3s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons > button img {
+  max-width: 20px; /* Reduced max-width for the image */
+  margin-right: 5px; /* Reduced spacing between image and text */
+}
+
+.buttons > button:hover {
+  background-color: #e0e0e0;
+}
+
+.line-container {
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  flex: 1;
+  border: none;
+  border-top: 1px solid #000;
+  margin: 0 10px;
+}

@@ -1,0 +1,47 @@
+
+.app {
+  display: flex; /* Use Flexbox */
+  justify-content: space-between; /* Distribute space between sections */
+  align-items: center;
+  padding: 25px;
+  height: 100vh; /* Adjust the height as needed */
+}
+.np{
+  background-color: #e0e0e0;
+}
+.left-section {
+  background-color: white; /* Light grey background color */
+  display: flex;
+  flex-direction: column; /* Stack the components vertically */
+  justify-content:space-between;
+  align-items: center;
+  height: 100%; /* Set the height of the left section */
+  width: 30%; /* Maximum width for the left section */
+}
+
+.left-section > div {
+  text-align: center; /* Center text within each component */
+  margin: 20px 0;
+  padding: auto; /* Add some spacing between components */
+  font-size: 16px; /* Set a base font size */
+}
+
+/* Adjust font size based on the section size */
+@media screen and (max-width: 768px) {
+  .left-section > div {
+    font-size: 14px;
+  }
+}
+
+/* Additional media queries for different section sizes */
+@media screen and (max-width: 480px) {
+  .left-section > div {
+    font-size: 12px;
+  }
+}
+
+.right-section {
+  width: 70%; /* Set the width of the right section */
+  background-color: #e0e0e0; /* Add background color or image */
+  padding: 20px; /* Add padding as needed */
+}
